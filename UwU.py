@@ -24,7 +24,7 @@ def create_child_process():
     process = Process(target=child_task, args=(2, 3,))
     process.start()
 
-
+key_string = "Som3TimeYouN33edT0GetSomeR3st" #password
 def generate_key(vector):
     global key_string
     global index
